@@ -1,5 +1,4 @@
 
-Here is a README.md for the 4getXSS tool:
 
 4getXSS - Cross-Site Scripting (XSS) Vulnerability Scanner
 4getXSS is a powerful tool designed to automatically scan web applications for Cross-Site Scripting (XSS) vulnerabilities. It uses a variety of payloads to detect vulnerabilities, and it provides results in both JSON and HTML formats.
