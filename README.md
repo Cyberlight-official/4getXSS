@@ -1,6 +1,7 @@
 
 
 4getXSS - Cross-Site Scripting (XSS) Vulnerability Scanner
+
 4getXSS is a powerful tool designed to automatically scan web applications for Cross-Site Scripting (XSS) vulnerabilities. It uses a variety of payloads to detect vulnerabilities, and it provides results in both JSON and HTML formats.
 
 Warning: Only use this tool on systems you have explicit permission to scan. Unauthorized use of this tool is illegal and can result in severe legal consequences.
@@ -75,16 +76,24 @@ JSON Format: After a scan, you will receive a results.json file containing detai
 HTML Report: Optionally, you can generate an HTML report which will be saved to a file, detailing the scan results in a human-readable format.
 
 Legal Warning
+
 4getXSS is an educational and ethical tool for security researchers. Only use it on applications you own or have explicit permission to test.
 
 Using this tool without authorization is illegal and can result in serious legal consequences, including criminal prosecution. Use at your own risk.
 
 Chrome Installation
+
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 Chrome Driver Installation
+
 wget https://storage.googleapis.com/chrome-for-testing-public/128.0.6613.119/linux64/chromedriver-linux64.zip
+
 unzip chromedriver-linux64.zip
+
 cd chromedriver-linux64 
+
 sudo mv chromedriver /usr/bin
+
