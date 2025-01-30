@@ -27,3 +27,13 @@ Install the required packages with the following command:
 
 ```bash
 pip install -r requirements.txt
+Chrome Installation
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+Chrome Driver Installation
+wget https://storage.googleapis.com/chrome-for-testing-public/128.0.6613.119/linux64/chromedriver-linux64.zip
+unzip chromedriver-linux64.zip
+cd chromedriver-linux64 
+sudo mv chromedriver /usr/bin
+
